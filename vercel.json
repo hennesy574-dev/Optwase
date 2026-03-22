@@ -1,0 +1,8 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "functions": {
+    "api/notify.js": { "maxDuration": 30 },
+    "api/bot.js":    { "maxDuration": 30 }
+  }
+}
